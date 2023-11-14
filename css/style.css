@@ -1,0 +1,62 @@
+/* Reset some default styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 3vw;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+nav h1 {
+    margin: 0;
+    padding: 10px;
+    font-size: 3vw;
+    color: #fff;
+  }
+ul {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    margin-right: 2vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+
+button {
+    margin-left: 2vw;
+    padding: .5vw 1vw;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1vw;
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
